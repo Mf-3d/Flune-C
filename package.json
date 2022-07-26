@@ -1,5 +1,5 @@
 {
-  "name": "monot",
+  "name": "flune-c",
   "homepage": "https://sorakime.github.io/mncr/project/monot",
   "version": "1.0.0",
   "description": "The new web browser \"Monot\" by monochrome.",
@@ -10,10 +10,9 @@
     "build": "npx electron-builder",
     "format": "npx eslint --fix ."
   },
-  "author": "monochrome Project.",
-  "license": "ISC",
+  "author": "aurora Project.",
   "devDependencies": {
-    "electron": "^17.1.0",
+    "electron": "^19.0.9",
     "electron-builder": "^23.0.3",
     "eslint": "^8.5.0",
     "eslint-plugin-node": "^11.1.0"
@@ -22,9 +21,9 @@
     "node": ">=15.0.0"
   },
   "build": {
-    "appId": "me.soraki.monot",
-    "productName": "Monot",
-    "copyright": "Copyright © 2022 monochrome Project.",
+    "appId": "tk.mf7cli.flune_c",
+    "productName": "Flune-C",
+    "copyright": "Copyright © 2022 aurora Project.",
     "files": [
       "!.git",
       "!.dist",
@@ -49,7 +48,7 @@
     },
     "appImage": {
       "category": "Utility",
-      "synopsis": "Monot v1.0.0 Build7"
+      "synopsis": "Flune-C v1.0.0"
     },
     "mac": {
       "identity": null,
@@ -59,7 +58,7 @@
     },
     "dmg": {
       "backgroundColor": "#efefef",
-      "title": "Monot v1.0.0 Build7"
+      "title": "Flune-C v1.0.0"
     }
   }
 }

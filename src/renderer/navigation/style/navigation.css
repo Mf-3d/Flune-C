@@ -71,10 +71,10 @@ body nav * {
   position: relative;
   top: 0;
   display: inline-block;
-  border-radius: 10px;
-  height: 23px;
+  border-radius: 5px;
+  height: 20px;
   aspect-ratio: 1/1;
-  margin: 3px;
+  margin: 1px;
   background-color: var(--backgroundcolor-unhover);
   transition: all 0.2s ease-in-out;
   border: 1px solid var(--border-color-unhover);
@@ -107,7 +107,7 @@ body nav a:last-child {
 nav a {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 50%;
   cursor: default;
 }
 nav a:active {
@@ -178,7 +178,7 @@ tab-el {
   vertical-align: middle;
   display: flex;
   overflow: hidden;
-  height: 32.5px;
+  height: 25px;
 }
 tab-el * {
   -webkit-user-drag: none;
@@ -196,13 +196,13 @@ tab-el > div > span {
   padding-right: 20px;
   padding-left: 5px;
   width: 100%;
-  margin: 5px;
+  margin: 3px;
   margin-top: 2px;
   text-align: center;
   padding: 2px;
   padding-right: 15px;
   font-size: 12px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid var(--border-color-unhover);
   transition: all 0.2s ease-in-out;
   cursor: default;
@@ -213,15 +213,15 @@ tab-el > div > span {
 }
 tab-el > a {
   display: block;
-  height: 24px;
-  width: 24px;
-  margin: 3px;
+  height: 20px;
+  width: 20px;
+  margin: 1px;
   aspect-ratio: 1/1;
   background-image: url('../../../image/plus.png');
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: var(--backgroundcolor-unhover);
   box-shadow: 1px 1px 5px var(--shadow-color-unhover);
   border: 1px solid var(--border-color-unhover);
